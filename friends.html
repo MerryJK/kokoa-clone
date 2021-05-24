@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>20:35</span>
+        </div>
+        <div class="status-bar__column">
+            <span>80%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <img class="background-img" src="img/menu-background.png"/>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><img src="img/search-state-bar.png"></span>
+            <span><img src="img/music.png"></span>
+            <span><a href="settings.html"><img class="fa-cog" src="img/setting.png"><div class="badge component-dot"></div></a></span>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i>Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/my-profile-img.jpg" class="user-component__avatar user-component__avatar--xl"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">ME</h4>
+                    <h6 class="user-component__subtitle">I luv cider ♥</h6>
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/nook.jpg" class="user-component__avatar user-component__avatar--sm"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">The nook</h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                <span>2<i class="fas fa-chevron-right fa-xs"></i></span>
+                </div>
+            </div>
+            <div class="friends-screen__channel friends-screen__channel-header">
+                <span>Friends</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/cydar.png" class="user-component__avatar user-component__avatar--sm"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">cider</h4>
+                    </div>
+                </div>
+                <div class="user-component__column"></div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/apple.png" class="user-component__avatar user-component__avatar--sm"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">apple</h4>
+                    </div>
+                </div>
+                <div class="user-component__column"></div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/jjuni.png" class="user-component__avatar user-component__avatar--sm"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">jjuni</h4>
+                    </div>
+                </div>
+                <div class="user-component__column"></div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><img src="img/friends.png"/></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">4</span><img src="img/chat.png"/></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><img src="img/search.png"/></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <div class="badge component-dot"></div><img src="img/more.png"/></a></li>
+        </ul>
+    </nav>
+
+    <div id="splash-screen">
+        <img src="img/leaf.png">
+    </div>
+    
+    <div id="no-mobile">
+        <span>TOO much big size</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2f7a0fb504.js" crossorigin="anonymous"></script>
+</body>
+</html>

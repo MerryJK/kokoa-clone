@@ -1,0 +1,107 @@
+
+.welcome-header {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+
+.welcome-header__logo{
+    width: 60%;
+    height: 60%;
+}
+
+.welcome-header__text{
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    color: var(--darkbrown);
+    background-color: var(--yellow);
+    border-radius: 8px;
+    position: absolute;
+    bottom:40px;
+    right:100px;
+    font-weight: 600;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 3%;
+}
+
+#login-form input {
+    padding: 15px 10px;
+    border:none;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#login-form input:not([type="submit"])
+{
+    background-color: rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0,0,0,0);
+    transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder,
+#login-form input:focus{
+    color:white;
+    border-color: white;
+}
+
+#login-form input[type="submit"]{
+    background-color:rgba(253, 229, 90, 0.8);
+    color: var(--darkbrown);
+    cursor:pointer;
+    padding:15px 0px;
+}
+
+#login-form input[type="submit"]:hover{
+    background-color: var(--yellow);
+}
+
+.login__find-account{
+    text-align: center;
+    text-decoration: none;
+    color:inherit;
+    font-size:13px;
+    margin-bottom: 10%;
+}
+
+.login__with-nin{
+    position:relative;
+    padding:10px 10px;
+    width: 50%;
+    height: 20px;
+    background-color: tomato;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+.login__with-nin a{
+    position: absolute;
+    left:15%;
+    font-size: 18px;
+    color: white;
+}
+
+.login__with-nin img{
+    position: absolute;
+    width:30px;
+    height: 30px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    transition: visibility linear;
+}
+
+.login__with-nin:hover a,
+.login__with-nin:hover img{
+    visibility:visible;
+    color: tomato;
+}

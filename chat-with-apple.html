@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Kokoa Clone</title>
+</head>
+<body id="chat-screen">
+    <img  src="img/chat-background.jpg">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>20:35</span>
+        </div>
+        <div class="status-bar__column">
+            <span>80%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column"><a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a></div>
+        <div class="alt-header__column"><h1 class="alt-header__title">apple</h1></div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span></div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Monday, May 24 2021
+        </div>
+        <div class="message-row message-row--own">
+             <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">hey!</span>
+                    <span class="message__time">20:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="img/apple.png"/>
+            <div class="message-row__content">
+                <span class="message__author">apple</span>
+                <div class="message__info">
+                    <span class="message__bubble">hey, you taking a break too?</span>
+                    <span class="message__time">20:28</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">
+                        <img src="img/orange.png">
+                    </span>
+                    <span class="message__time">20:28</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">This is yours</span>
+                    <span class="message__time">20:28</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="img/apple.png"/>
+            <div class="message-row__content">
+                <span class="message__author">aaple</span>
+                <div class="message__info">
+                    <span class="message__bubble">For me, really?</span>
+                    <span class="message__time">20:29</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="img/apple.png"/>
+            <div class="message-row__content">
+                <span class="message__author">apple</span>
+                <div class="message__info">
+                    <span class="message__bubble">oh, what a nice orange</span>
+                    <span class="message__time">20:29</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="img/apple.png"/>
+            <div class="message-row__content">
+                <span class="message__author">apple</span>
+                <div class="message__info">
+                    <span class="message__bubble">Thanks for finding this for me. I love it!</span>
+                    <span class="message__time">20:29</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..."/>
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>TOO much big size</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2f7a0fb504.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
